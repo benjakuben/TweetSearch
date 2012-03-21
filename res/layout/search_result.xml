@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="4dp"
+    android:layout_marginBottom="4dp" >
+
+    <ImageView android:id="@+id/user_image_view"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+		android:layout_alignParentLeft="true"
+		android:layout_centerVertical="true"
+		android:contentDescription="@string/user_image_description" />
+    
+    <TextView android:id="@+id/user_name_text_view" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/user_image_view"
+        android:textColor="#00ff00" />
+    
+    <TextView android:id="@+id/timestamp_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@id/user_name_text_view"
+        android:layout_marginLeft="8dp"
+	    android:singleLine="true"
+	    android:ellipsize="end"
+	    android:textColor="#bbbbbb" />
+        
+    <TextView android:id="@+id/tweet_text_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_toRightOf="@id/user_image_view"
+        android:layout_below="@id/user_name_text_view"
+        android:textColor="#ffffff" />
+    
+</RelativeLayout>

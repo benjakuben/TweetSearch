@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Tweet Search</string>
+
+    <string name="search_hint">search</string>
+    <string name="search_button_label">go</string>
+    <string name="refresh_button_label">refresh search results</string>
+    <string name="search_hud">Searching&#8230;</string>
+    <string name="refresh_hud">Refreshing&#8230;</string>
+    <string name="no_search_results">No search results found.</string>
+    
+    <string name="base_url">http://search.twitter.com/search.json</string>
+    
+    <!-- Content Descriptions -->
+    <string name="user_image_description">User Profile Image</string>
+</resources>
