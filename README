@@ -1,0 +1,13 @@
+I have spent more time on the app architecture than the UI (as is evidenced by looking at the app).  Here are some highlights and some remaining "to do" items:
+
+Highlights:
+- dependency injection for the service call (easy versioning)
+- Restlet library for JSON services
+- GSON deserialization of the JSON service response
+
+To do items:
+- Download user profile image thumbnails using AsyncTask
+- Option to clear search results
+- UI cleanup (styles, reformatting the timestamp, search and refresh icons instead of text)
+- Dismiss the soft keyboard when tapping outside the search text box
+- Utilize a common logging singleton to standardize logging
